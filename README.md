@@ -2,7 +2,11 @@
 
 ## Background
 _Kodi_ has a builtin web based remote control but this is inconvenient when trying to rapidly
-scroll through a long list of items (movies or songs)
+scroll through a long list of items (movies or songs).  There are also several _Android_ apps,
+including the official _Kodi_ remote control, of varying quality and features.
+
+This project is to cram a _Raspberry Pi_ into the shell of a computer mouse and use it as a
+simple _Kodi_ remote control.
 
 ## Generic Wireless Mouse
 Got this off _eBay_ a few years ago for £5 and it's been gathering dust for a while
@@ -28,6 +32,8 @@ Loads available on _eBay_ for £2 and supported by Raspbian
 
 ## Preparing the Mouse
 The mouse snaps apart relatively easily and a _Dremel_ makes short work of creating space
+
+Note notch in bottom casing for a USB power cable
 
 <details><p/>
 
