@@ -63,6 +63,12 @@ cut in the mouse PCB to get independent button clicks:
 
 </details>
 
+## Environment Variables
+System wide environment variables are set in `/etc/environment`:
+* KODI_URL=`http://<kodi-url>`
+* KODI_USERNAME=`<kodi-username>`
+* KODI_PASSWORD=`<kodi-password>`
+
 ## Code
 _Kodi_ has a comprehensive JSON API:
 * [overview](https://kodi.wiki/view/JSON-RPC_API)
@@ -75,12 +81,15 @@ All mouse buttons are connected to GPIO pins and monitored with:
 * [gpiozero](https://gpiozero.readthedocs.io/en/stable/)
 
 GPIO pin states are event driven and map to an input key:
-* left
-* right
-* up
-* down
-* back
-* select
+
+| Mouse | GPIO | Kodi | Notes |
+|-------|------|------|-------|
+| DPI | GPIO3 | back |  |
+| LMB | GPIO13 | left |  |
+| RMB | GPIO19 | right |  |
+| MMB | GPIO26 | select |  |
+| fwd | GPIO5+GPIO6 | up | two events are sent |
+| rev | GPIO6+GPIO5 | down | two events are sent |
 
 ## Further Work
 * make file system read-only
