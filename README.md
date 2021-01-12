@@ -48,7 +48,13 @@ Even then, mounting holes on the _Raspberry Pi_ had to be ground off to fit into
 the mouse.
 
 Mouse has 6 switches which can be used to control _Kodi_ but tracks had to be
-cut in the mouse PCB to get independent button clicks.
+cut in the mouse PCB to get independent button clicks:
+* left mouse button (LMB)
+* right mouse button (RMB)
+* middle mouse button (MMB)
+* mouse wheel fwd (wheel)
+* mouse wheel rev (wheel)
+* dots per inch (DPI)
 
 <details><p/>
 
