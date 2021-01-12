@@ -41,7 +41,7 @@ The mouse snaps apart relatively easily and a _Dremel_ makes short work of creat
 </details>
 
 ## Raspberry Pi Zero + WiFi Adapter
-Severe packaging constrains means removing the wifi adapter from it's housing
+Severe packaging constraints means removing the wifi adapter from it's housing
 and soldering it directly to the _Raspberry Pi_.
 
 Even then, mounting holes on the _Raspberry Pi_ had to be ground off to fit into
