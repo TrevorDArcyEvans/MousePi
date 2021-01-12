@@ -50,6 +50,8 @@ print("KODI:")
 print("  URL      : " + kodi_url)
 print("  USERNAME : " + kodi_username)
 print("  PASSWORD : " + kodi_password)
+print("Ping Kodi...")
+print(kodi.JSONRPC.Ping())
 print()
 
 print("Starting button monitoring...")
